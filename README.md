@@ -9,9 +9,9 @@ libraries required. Just plug and play.
 
 Add script to html page:
 
-'''
+```
 	<script type="text/javascript" src = "slideshow.js"></script>
-'''
+```
 
 ###Usage
 
@@ -31,8 +31,8 @@ var slides = new SlideShow();
 
 Create a button or html element to open the slide show:
 
-'''
+```
 	<button onclick = "slides.open()">View Presentation</button>
-'''
+```
 
 You are done! That's it. 
