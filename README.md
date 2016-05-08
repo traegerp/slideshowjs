@@ -9,7 +9,7 @@ libraries required. Just plug and play.
 
 Add script to html page:
 
-'''html
+'''
 	<script type="text/javascript" src = "slideshow.js"></script>
 '''
 
@@ -17,7 +17,7 @@ Add script to html page:
 
 Add html5 attribute to containing element that you want to turn into a slide:
 
-```html
+```
 <div data-slide = "1">
 	<h1> My First Slide </h1>
 </div>
@@ -31,7 +31,7 @@ var slides = new SlideShow();
 
 Create a button or html element to open the slide show:
 
-'''html
+'''
 	<button onclick = "slides.open()">View Presentation</button>
 '''
 
